@@ -60,11 +60,11 @@
     };
     custom {
       bindings = <
-        &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &tog 1                                                       &mo 3 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
-        &trans &trans &trans &trans &trans &trans  &none                                                       &none &trans &trans &trans &trans  &trans  &trans
-        &trans &macro_leftTab &trans &trans &trans &trans  &none        &trans &trans             &trans &trans        &none &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &trans &trans &trans &trans        &none  &none  &trans &none &none &trans &none  &none        &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &trans &trans &trans               &trans &trans &trans             &trans &trans &trans              &trans &trans &trans  &trans  &trans
+        &trans &trans         &trans          &trans &macro_screenShotToClipBoard &macro_screenShotToDownloads        &none                                                       &none                 &trans  &trans                  &trans                  &trans  &trans                &trans
+        &trans &trans         &macro_closeTab &trans &trans                       &macro_newTab                       &none                                                       &none                 &trans  &macro_cursorLeftWord   &macro_cursorRightWord  &BSPC   &macro_deleteWord     &macro_deleteLine
+        &trans &macro_leftTab &macro_rightTab &trans &ENTER                       &trans                              &none        &trans &trans             &trans &trans        &macro_cursorFarLeft  &LEFT   &DOWN                   &UP                     &LEFT   &macro_cursorFarRight &trans
+        &trans &trans         &trans          &trans &trans                       &trans                                    &none  &none  &trans &none &none &trans &none  &none        &trans          &trans  &trans                  &trans                  &trans  &trans
+        &trans &trans         &trans          &trans &trans                                                                 &trans &trans &trans             &trans &trans &trans                       &trans  &trans                  &trans                  &trans  &trans
       >;
     };
   };
