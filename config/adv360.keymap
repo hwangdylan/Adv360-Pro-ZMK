@@ -61,8 +61,8 @@
     custom {
       bindings = <
         &trans &trans         &trans          &trans &macro_screenShotToClipBoard &macro_screenShotToDownloads        &none                                                       &none                 &trans  &trans                  &trans                  &trans  &trans                &trans
-        &trans &trans         &macro_closeTab &trans &trans                       &macro_newTab                       &none                                                       &none                 &trans  &macro_cursorLeftWord   &macro_cursorRightWord  &kp BSPC   &macro_deleteWord     &macro_deleteLine
-        &trans &kp LG(LS(LEFT_BRACKET)) &macro_rightTab &trans &kp ENTER                       &trans                              &none        &trans &trans             &trans &trans        &macro_cursorFarLeft  &kp LEFT   &kp DOWN                   &kp UP                     &kp RIGHT   &macro_cursorFarRight &trans
+        &trans &trans         &kp LG(W) &trans &trans                       &kp LG(T)                       &none                                                       &none                 &trans  &kp LA(LEFT)   &kp LA(RIGHT)  &kp BSPC   &kp LA(BSPC)     &kp LG(BSPC)
+        &trans &kp LG(LS(LEFT_BRACKET)) &kp LG(LS(RIGHT_BRACKET)) &trans &kp ENTER                       &trans                              &none        &trans &trans             &trans &trans        &kp LG(LEFT)  &kp LEFT   &kp DOWN                   &kp UP                     &kp RIGHT   &kp LG(RIGHT) &trans
         &trans &trans         &trans          &trans &trans                       &trans                                    &none  &none  &trans &none &none &trans &none  &none                        &trans  &trans                  &trans                  &trans  &trans                &trans
         &trans &trans         &trans          &trans &trans                                                                 &trans &trans &trans             &trans &trans &trans                               &trans                  &trans                  &trans  &trans                &trans
       >;
