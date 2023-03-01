@@ -62,9 +62,9 @@
       bindings = <
         &trans &trans         &trans          &trans &macro_screenShotToClipBoard &macro_screenShotToDownloads        &none                                                       &none                 &trans  &trans                  &trans                  &trans  &trans                &trans
         &trans &trans         &macro_closeTab &trans &trans                       &macro_newTab                       &none                                                       &none                 &trans  &macro_cursorLeftWord   &macro_cursorRightWord  &BSPC   &macro_deleteWord     &macro_deleteLine
-        &trans &macro_leftTab &macro_rightTab &trans &ENTER                       &trans                              &none        &trans &trans             &trans &trans        &macro_cursorFarLeft  &LEFT   &DOWN                   &UP                     &LEFT   &macro_cursorFarRight &trans
-        &trans &trans         &trans          &trans &trans                       &trans                                    &none  &none  &trans &none &none &trans &none  &none        &trans          &trans  &trans                  &trans                  &trans  &trans
-        &trans &trans         &trans          &trans &trans                                                                 &trans &trans &trans             &trans &trans &trans                       &trans  &trans                  &trans                  &trans  &trans
+        &trans &macro_leftTab &macro_rightTab &trans &ENTER                       &trans                              &none        &trans &trans             &trans &trans        &macro_cursorFarLeft  &LEFT   &DOWN                   &UP                     &RIGHT   &macro_cursorFarRight &trans
+        &trans &trans         &trans          &trans &trans                       &trans                                    &none  &none  &trans &none &none &trans &none  &none                        &trans  &trans                  &trans                  &trans  &trans                &trans
+        &trans &trans         &trans          &trans &trans                                                                 &trans &trans &trans             &trans &trans &trans                               &trans                  &trans                  &trans  &trans                &trans
       >;
     };
   };
