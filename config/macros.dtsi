@@ -43,3 +43,102 @@
                , <&macro_tap &kp LEFT_BRACKET>
                , <&macro_release &kp LEFT_COMMAND &kp LEFT_SHIFT>;
   };
+  macro_rightTab: macro_rightTab {
+    compatible = "zmk,behavior-macro";
+    label = "macro_rightTab";
+    #binding-cells = <0>;
+    wait-ms = <0>;
+    bindings = <&macro_press &kp LEFT_COMMAND &kp LEFT_SHIFT>
+               , <&macro_tap &kp RIGHT_BRACKET>
+               , <&macro_release &kp LEFT_COMMAND &kp LEFT_SHIFT>;
+  };
+  macro_closeTab: macro_closeTab {
+    compatible = "zmk,behavior-macro";
+    label = "macro_closeTab";
+    #binding-cells = <0>;
+    wait-ms = <0>;
+    bindings = <&macro_press &kp LEFT_COMMAND>
+               , <&macro_tap &kp W>
+               , <&macro_release &kp LEFT_COMMAND>;
+  };
+  macro_newTab: macro_newTab {
+    compatible = "zmk,behavior-macro";
+    label = "macro_newTab";
+    #binding-cells = <0>;
+    wait-ms = <0>;
+    bindings = <&macro_press &kp LEFT_COMMAND>
+               , <&macro_tap &kp T>
+               , <&macro_release &kp LEFT_COMMAND>;
+  };
+  macro_cursorFarLeft: macro_cursorFarLeft {
+    compatible = "zmk,behavior-macro";
+    label = "macro_cursorFarLeft";
+    #binding-cells = <0>;
+    wait-ms = <0>;
+    bindings = <&macro_press &kp LEFT_COMMAND>
+               , <&macro_tap &kp LEFT_ARROW>
+               , <&macro_release &kp LEFT_COMMAND>;
+  };
+  macro_cursorFarRight: macro_cursorFarRight {
+    compatible = "zmk,behavior-macro";
+    label = "macro_cursorFarRight";
+    #binding-cells = <0>;
+    wait-ms = <0>;
+    bindings = <&macro_press &kp LEFT_COMMAND>
+               , <&macro_tap &kp RIGHT_ARROW>
+               , <&macro_release &kp LEFT_COMMAND>;
+  };
+  macro_cursorRightWord: macro_cursorRightWord {
+    compatible = "zmk,behavior-macro";
+    label = "macro_cursorRightWord";
+    #binding-cells = <0>;
+    wait-ms = <0>;
+    bindings = <&macro_press &kp LEFT_ALT>
+               , <&macro_tap &kp RIGHT_ARROW>
+               , <&macro_release &kp LEFT_ALT>;
+  };
+  macro_cursorLeftWord: macro_cursorLeftWord {
+    compatible = "zmk,behavior-macro";
+    label = "macro_cursorLeftWord";
+    #binding-cells = <0>;
+    wait-ms = <0>;
+    bindings = <&macro_press &kp LEFT_ALT>
+               , <&macro_tap &kp LEFT_ARROW>
+               , <&macro_release &kp LEFT_ALT>;
+  };
+  macro_deleteWord: macro_deleteWord {
+    compatible = "zmk,behavior-macro";
+    label = "macro_deleteWord";
+    #binding-cells = <0>;
+    wait-ms = <0>;
+    bindings = <&macro_press &kp LEFT_ALT>
+               , <&macro_tap &kp BACKSPACE>
+               , <&macro_release &kp LEFT_ALT>;
+  };
+  macro_deleteLine: macro_deleteLine {
+    compatible = "zmk,behavior-macro";
+    label = "macro_deleteLine";
+    #binding-cells = <0>;
+    wait-ms = <0>;
+    bindings = <&macro_press &kp LEFT_COMMAND>
+               , <&macro_tap &kp BACKSPACE>
+               , <&macro_release &kp LEFT_COMMAND>;
+  };
+  macro_screenShotToClipBoard: macro_screenShotToClipBoard {
+    compatible = "zmk,behavior-macro";
+    label = "macro_screenShotToClipBoard";
+    #binding-cells = <0>;
+    wait-ms = <0>;
+    bindings = <&macro_press &kp LEFT_SHIFT &kp LEFT_COMMAND &kp LEFT_CONTROL>
+               , <&macro_tap &kp 4>
+               , <&macro_release &kp LEFT_SHIFT &kp LEFT_COMMAND &kp LEFT_CONTROL>;
+  };
+  macro_screenShotToDownloads: macro_screenShotToDownloads {
+    compatible = "zmk,behavior-macro";
+    label = "macro_screenShotToDownloads";
+    #binding-cells = <0>;
+    wait-ms = <0>;
+    bindings = <&macro_press &kp LEFT_SHIFT &kp LEFT_COMMAND>
+               , <&macro_tap &kp 4>
+               , <&macro_release &kp LEFT_SHIFT &kp LEFT_COMMAND>;
+  };
