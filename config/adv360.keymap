@@ -61,10 +61,19 @@
     custom {
       bindings = <
         &trans &trans                   &trans                    &trans  &macro_screenShotToClipBoard  &macro_screenShotToDownloads  &none                                                               &none         &trans    &trans        &trans        &trans    &trans        &trans
-        &trans &trans                   &kp LG(W)                 &trans  &trans                        &kp LG(T)                     &none                                                               &none         &trans    &kp LA(LEFT)  &kp LA(RIGHT) &kp BSPC  &kp LA(BSPC)  &kp LG(BSPC)
-        &trans &kp LG(LS(LEFT_BRACKET)) &kp LG(LS(RIGHT_BRACKET)) &trans  &kp ENTER                     &trans                        &none              &trans &trans             &trans &trans          &kp LG(LEFT)  &kp LEFT  &kp DOWN      &kp UP        &kp RIGHT &kp LG(RIGHT) &trans
+        &trans &trans                   &kp LG(W)                 &trans  &trans                        &kp LG(T)                     &to 5                                                               &none         &trans    &kp LA(LEFT)  &kp LA(RIGHT) &kp BSPC  &kp LA(BSPC)  &kp LG(BSPC)
+        &trans &kp LG(LS(LEFT_BRACKET)) &kp LG(LS(RIGHT_BRACKET)) &trans  &kp ENTER                     &trans                        &to 0              &trans &trans             &trans &trans          &kp LG(LEFT)  &kp LEFT  &kp DOWN      &kp UP        &kp RIGHT &kp LG(RIGHT) &trans
         &trans &trans                   &trans                    &trans  &trans                        &trans                                    &none  &none  &trans &none &none &trans &none  &none                  &trans    &trans        &trans        &trans    &trans        &trans
         &trans &trans                   &trans                    &trans  &trans                                                                  &trans &trans &trans             &trans &trans &trans                           &trans        &trans        &trans    &trans        &trans
+      >;
+    };
+    colemak {
+      bindings = <
+        &kp EQUAL &kp N1    &kp N2   &kp N3     &kp N4     &kp N5 &tog 1                                                                          &mo 3     &kp N6  &kp N7 &kp N8    &kp N9   &kp N0   &kp MINUS
+        &kp TAB   &kp Q     &kp W    &kp F      &kp P      &kp G  &none                                                                           &none     &kp J   &kp L  &kp U     &kp Y    &kp SEMI    &kp BSLH
+        &lt 4 ESC   &kp A     &kp R    &kp S      &kp T      &kp D  &kp TAB         &kp LCTRL   &kp LALT                 &kp RGUI  &kp RCTRL          &kp BSPC  &kp H   &kp N  &kp E     &kp I    &kp O &kp SQT
+        &kp LSHFT &kp Z     &kp X    &kp C      &kp V      &kp B          &none   &none       &kp LSHIFT &none &none   &kp PG_UP &none     &none              &kp K   &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
+        &mo 2     &kp GRAVE &kp LEFT &kp RIGHT  &kp LSHIFT                &lt 4 ESC   &kp LCMD    &kp LCTRL                &kp PG_DN &kp ENTER &kp SPACE                  &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2
       >;
     };
   };
