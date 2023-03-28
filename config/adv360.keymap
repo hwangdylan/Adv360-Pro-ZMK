@@ -24,11 +24,11 @@
 
     default_layer {
       bindings = <
-        &kp EQUAL &kp N1    &kp N2   &kp N3     &kp N4     &kp N5 &tog 1                                                                          &mo 3     &kp N6  &kp N7 &kp N8    &kp N9   &kp N0   &kp MINUS
-        &kp TAB   &kp Q     &kp W    &kp E      &kp R      &kp T  &none                                                                           &none     &kp Y   &kp U  &kp I     &kp O    &kp P    &kp BSLH
-        &lt 4 ESC   &kp A     &kp S    &kp D      &kp F      &kp G  &kp TAB         &kp LCTRL   &kp LALT                 &kp RGUI  &kp RCTRL          &kp BSPC  &kp H   &kp J  &kp K     &kp L    &kp SEMI &kp SQT
-        &kp LSHFT &kp Z     &kp X    &kp C      &kp V      &kp B          &none   &none       &kp LSHIFT &none &none   &kp PG_UP &none     &none              &kp N   &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-        &mo 2     &kp GRAVE &kp LEFT &kp RIGHT  &kp LSHIFT                &lt 4 ESC   &kp LCMD    &kp LCTRL                &kp PG_DN &kp ENTER &kp SPACE                  &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2
+        &kp EQUAL   &kp N1    &kp N2   &kp N3     &kp N4     &kp N5 &tog 1                                                                                &mo 3     &kp N6  &kp N7 &kp N8    &kp N9   &kp N0   &kp MINUS
+        &kp TAB     &kp Q     &kp W    &kp E      &kp R      &kp T  &none                                                                                 &none     &kp Y   &kp U  &kp I     &kp O    &kp P    &kp BSLH
+        &lt 4 ESC   &kp A     &kp S    &kp D      &kp F      &kp G  &kp TAB             &kp LCTRL   &kp LALT                 &kp RGUI  &kp RCTRL          &kp BSPC  &kp H   &kp J  &kp K     &kp L    &kp SEMI &kp SQT
+        &kp LSHFT   &kp Z     &kp X    &kp C      &kp V      &kp B          &none       &none       &kp LSHIFT &none &none   &kp PG_UP &none     &none              &kp N   &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
+        &mo 2       &kp GRAVE &kp LEFT &kp RIGHT  &kp LSHIFT                &lt 4 ESC   &kp LCMD    &kp LCTRL                &kp PG_DN &kp ENTER &kp SPACE                  &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2
       >;
     };
     keypad {
@@ -60,11 +60,11 @@
     };
     custom {
       bindings = <
-        &trans &trans                   &trans                    &trans  &kp LS(LG(LC(N4))) &kp LS(LG(N4))  &none                                                          &none         &trans    &trans        &trans        &trans    &trans        &trans
-        &trans &trans                   &kp LG(W)                 &trans  &trans             &kp LG(T)       &none                                                         &none         &trans    &kp LA(LEFT)  &kp LA(RIGHT) &kp BSPC  &kp LA(BSPC)  &kp LG(BSPC)
-        &trans &kp LG(LS(LEFT_BRACKET)) &kp LG(LS(RIGHT_BRACKET)) &trans  &kp ENTER          &trans          &none        &trans &trans             &trans &trans          &kp LG(LEFT)  &kp LEFT  &kp DOWN      &kp UP        &kp RIGHT &kp LG(RIGHT) &trans
-        &trans &trans                   &trans                    &trans  &trans             &trans                 &none  &none  &trans &none &none &trans &none  &none                  &trans    &kp LA(LEFT)  &kp LA(RIGHT) &kp BSPC  &kp LA(BSPC)  &kp LG(BSPC)
-        &trans &trans                   &trans                    &trans  &trans                                    &trans &trans &trans             &trans &trans &trans                           &trans        &trans        &trans    &trans        &trans
+        &trans &trans                   &trans                    &trans  &kp LS(LG(LC(N4)))    &kp LS(LG(N4))  &none                                                          &none         &trans    &trans        &trans        &trans    &trans        &trans
+        &trans &trans                   &kp LG(W)                 &trans  &trans                &kp LG(T)       &none                                                          &none         &trans    &kp LA(LEFT)  &kp LA(RIGHT) &kp BSPC  &kp LA(BSPC)  &kp LG(BSPC)
+        &trans &kp LG(LS(LEFT_BRACKET)) &kp LG(LS(RIGHT_BRACKET)) &trans  &kp ENTER             &trans          &none         &trans &trans             &trans &trans          &kp LG(LEFT)  &kp LEFT  &kp DOWN      &kp UP        &kp RIGHT &kp LG(RIGHT) &trans
+        &trans &trans                   &trans                    &trans  &kp SPACE             &trans                 &none  &none  &trans &none &none &trans &none  &none                  &trans    &kp LA(LEFT)  &kp LA(RIGHT) &kp BSPC  &kp LA(BSPC)  &kp LG(BSPC)
+        &trans &trans                   &trans                    &trans  &trans                                       &trans &trans &trans             &trans &trans &trans                           &trans        &trans        &trans    &trans        &trans
       >;
     };
   };
