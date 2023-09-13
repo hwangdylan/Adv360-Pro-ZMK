@@ -45,7 +45,7 @@
     keypad {
       bindings = <
         &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &trans                                                            &mo 3 &kp N6 &kp KP_NUM &kp KP_EQUAL &kp KP_DIVIDE &kp KP_MULTIPLY &kp MINUS
-        &kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  &none                                                             &none &kp Y  &kp KP_N7  &kp KP_N8    &kp KP_N9     &kp KP_MINUS    &kp BSLH
+        &kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  &none                                                             &none &kp Y  &kp KP_N7  &kp KP_N8    &kp KP_N9     &kp KP_MINUS    &kp BSPC
         &kp ESC   &kp A     &kp S    &kp D    &kp F      &kp G  &none           &kp LCTRL &kp LALT  &kp RGUI  &kp RCTRL           &none &kp H  &kp KP_N4  &kp KP_N5    &kp KP_N6     &kp KP_PLUS     &kp SQT
         &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B                            &kp HOME  &kp PG_UP                           &kp N  &kp KP_N1  &kp KP_N2    &kp KP_N3     &kp KP_ENTER    &kp RSHFT
         &mo 2     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT                &kp BSPC &kp DEL   &kp END   &kp PG_DN &kp ENTER &kp SPACE              &kp UP     &kp KP_N0    &kp KP_DOT    &kp RBKT        &mo 2
@@ -74,7 +74,7 @@
         &trans  &trans                   &trans                    &trans  &kp LS(LG(LC(N4)))    &kp LS(LG(N4))  &none                                              &none         &trans    &trans        &trans        &trans    &trans        &trans
         &kp TAB &kp TAB                  &kp LG(W)                 &trans  &trans                &kp LG(T)       &none                                              &none         &trans    &kp LA(LEFT)  &kp LA(RIGHT) &kp BSPC  &kp LA(BSPC)  &kp LG(BSPC)
         &trans  &kp LG(LS(LEFT_BRACKET)) &kp LG(LS(RIGHT_BRACKET)) &trans  &kp ENTER             &trans          &none         &trans &trans &trans &trans          &kp LG(LEFT)  &kp LEFT  &kp DOWN      &kp UP        &kp RIGHT &kp LG(RIGHT) &trans
-        &trans  &trans                   &trans                    &trans  &kp SPACE             &trans                               &trans &trans                               &trans    &kp LA(LEFT)  &kp LA(RIGHT) &kp BSPC  &kp LA(BSPC)  &kp LG(BSPC)
+        &mo 1   &trans                   &trans                    &trans  &kp SPACE             &trans                               &trans &trans                               &trans    &kp LA(LEFT)  &kp LA(RIGHT) &kp BSPC  &kp LA(BSPC)  &kp LG(BSPC)
         &trans  &trans                   &trans                    &trans  &trans                                       &trans &trans &trans &trans &trans &trans                           &trans        &trans        &trans    &trans        &trans
       >;
     };
