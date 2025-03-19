@@ -75,4 +75,4 @@ CONFIG_ZMK_HID_INDICATORS=y
 
 
 #enable deep sleep
-CONFIG_ZMK_SLEEP=y
+# CONFIG_ZMK_SLEEP=y
